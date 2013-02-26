@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'SleepTrackerTesting' target in the 'SleepTrackerTesting' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
