@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B715B2CD16D927A600CECECA /* JJISSleepTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B715B2CC16D927A600CECECA /* JJISSleepTableViewController.m */; };
+		B71DB8F016FF886C00C2AC71 /* Back1.png in Resources */ = {isa = PBXBuildFile; fileRef = B71DB8E916FF886C00C2AC71 /* Back1.png */; };
+		B71DB8F116FF886C00C2AC71 /* Back2.png in Resources */ = {isa = PBXBuildFile; fileRef = B71DB8EA16FF886C00C2AC71 /* Back2.png */; };
+		B71DB8F216FF886C00C2AC71 /* Back3.png in Resources */ = {isa = PBXBuildFile; fileRef = B71DB8EB16FF886C00C2AC71 /* Back3.png */; };
+		B71DB8F316FF886C00C2AC71 /* Back4.png in Resources */ = {isa = PBXBuildFile; fileRef = B71DB8EC16FF886C00C2AC71 /* Back4.png */; };
+		B71DB8F416FF886C00C2AC71 /* Back5.png in Resources */ = {isa = PBXBuildFile; fileRef = B71DB8ED16FF886C00C2AC71 /* Back5.png */; };
+		B71DB8F516FF886C00C2AC71 /* Back6.png in Resources */ = {isa = PBXBuildFile; fileRef = B71DB8EE16FF886C00C2AC71 /* Back6.png */; };
+		B71DB8F616FF886C00C2AC71 /* SHSlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B71DB8EF16FF886C00C2AC71 /* SHSlogo.png */; };
+		B71DB8FC16FF901B00C2AC71 /* JJISSleepExplanation.m in Sources */ = {isa = PBXBuildFile; fileRef = B71DB8FB16FF901B00C2AC71 /* JJISSleepExplanation.m */; };
+		B72AD0F116D3FCFA00B6728D /* JJISSleepAdviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72AD0F016D3FCFA00B6728D /* JJISSleepAdviceViewController.m */; };
+		B72AD0F416D3FD8A00B6728D /* JJISWakeUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72AD0F316D3FD8A00B6728D /* JJISWakeUpViewController.m */; };
+		B749E28D16D2E60F00DE16CF /* JJISGoToSleepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B749E28C16D2E60F00DE16CF /* JJISGoToSleepViewController.m */; };
+		B755F2DB16DBCD16003400B9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DE07A416D2DA8400D3D98E /* SenTestingKit.framework */; };
+		B755F2DC16DBCD16003400B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DE078016D2DA8400D3D98E /* UIKit.framework */; };
+		B755F2DD16DBCD16003400B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DE078216D2DA8400D3D98E /* Foundation.framework */; };
+		B7636B3D16FF74D3005DA39D /* EmptyBox.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636B3B16FF74D3005DA39D /* EmptyBox.png */; };
+		B7636B3E16FF74D3005DA39D /* CheckedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = B7636B3C16FF74D3005DA39D /* CheckedBox.png */; };
+		B797DB1916ECF88A00616787 /* JJISEditSleepTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B797DB1816ECF88A00616787 /* JJISEditSleepTimeViewController.m */; };
+		B797DB1B16ED24D800616787 /* logo-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = B797DB1A16ED24D700616787 /* logo-hover.png */; };
+		B7B90C0016D80B8300A59E75 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B90BFF16D80B8300A59E75 /* AVFoundation.framework */; };
+		B7B90C0216D80F5B00A59E75 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B90C0116D80F5B00A59E75 /* CoreAudio.framework */; };
+		B7B90C0516D814A600A59E75 /* JJISSleepInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B90C0416D814A600A59E75 /* JJISSleepInfo.m */; };
+		B7B90C0816D815ED00A59E75 /* JJISSleepInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B90C0716D815ED00A59E75 /* JJISSleepInfoManager.m */; };
+		B7B90C0A16D8171C00A59E75 /* SHSPodcast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7B90C0916D8171C00A59E75 /* SHSPodcast.mp3 */; };
+		B7D3E9F016D928AD001BC717 /* JJISSleepDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D3E9EF16D928AD001BC717 /* JJISSleepDetailViewController.m */; };
+		B7D6798B16FBBF71004CE5D9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D6798A16FBBF71004CE5D9 /* Icon.png */; };
+		B7D6798D16FBBF78004CE5D9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D6798C16FBBF78004CE5D9 /* Icon@2x.png */; };
+		B7DE078116D2DA8400D3D98E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DE078016D2DA8400D3D98E /* UIKit.framework */; };
+		B7DE078316D2DA8400D3D98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DE078216D2DA8400D3D98E /* Foundation.framework */; };
+		B7DE078516D2DA8400D3D98E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DE078416D2DA8400D3D98E /* CoreGraphics.framework */; };
+		B7DE078B16D2DA8400D3D98E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7DE078916D2DA8400D3D98E /* InfoPlist.strings */; };
+		B7DE078D16D2DA8400D3D98E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DE078C16D2DA8400D3D98E /* main.m */; };
+		B7DE079116D2DA8400D3D98E /* JJISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DE079016D2DA8400D3D98E /* JJISAppDelegate.m */; };
+		B7DE079316D2DA8400D3D98E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DE079216D2DA8400D3D98E /* Default.png */; };
+		B7DE079516D2DA8400D3D98E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DE079416D2DA8400D3D98E /* Default@2x.png */; };
+		B7DE079716D2DA8400D3D98E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DE079616D2DA8400D3D98E /* Default-568h@2x.png */; };
+		B7DE079A16D2DA8400D3D98E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7DE079816D2DA8400D3D98E /* MainStoryboard.storyboard */; };
+		B7DE079D16D2DA8400D3D98E /* JJISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DE079C16D2DA8400D3D98E /* JJISViewController.m */; };
+		B7DE07A516D2DA8400D3D98E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DE07A416D2DA8400D3D98E /* SenTestingKit.framework */; };
+		B7DE07A616D2DA8400D3D98E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DE078016D2DA8400D3D98E /* UIKit.framework */; };
+		B7DE07A716D2DA8400D3D98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DE078216D2DA8400D3D98E /* Foundation.framework */; };
+		B7DE07AF16D2DA8400D3D98E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7DE07AD16D2DA8400D3D98E /* InfoPlist.strings */; };
+		B7DE07B216D2DA8400D3D98E /* SleepTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DE07B116D2DA8400D3D98E /* SleepTrackerTests.m */; };
+		B7F5CA5916EE82DB00E598BD /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F5CA5716EE82CE00E598BD /* libCorePlot-CocoaTouch.a */; };
+		B7F5CA5B16EE82E600E598BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F5CA5A16EE82E600E598BD /* QuartzCore.framework */; };
+		B7F5CA5E16EE855E00E598BD /* JJISBarGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F5CA5D16EE855E00E598BD /* JJISBarGraphViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7DE07A816D2DA8400D3D98E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7DE077516D2DA8400D3D98E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7DE077C16D2DA8400D3D98E;
+			remoteInfo = SleepTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B715B2CB16D927A600CECECA /* JJISSleepTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJISSleepTableViewController.h; sourceTree = "<group>"; };
+		B715B2CC16D927A600CECECA /* JJISSleepTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJISSleepTableViewController.m; sourceTree = "<group>"; };
+		B71DB8E916FF886C00C2AC71 /* Back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back1.png; sourceTree = "<group>"; };
+		B71DB8EA16FF886C00C2AC71 /* Back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back2.png; sourceTree = "<group>"; };
+		B71DB8EB16FF886C00C2AC71 /* Back3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back3.png; sourceTree = "<group>"; };
+		B71DB8EC16FF886C00C2AC71 /* Back4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back4.png; sourceTree = "<group>"; };
+		B71DB8ED16FF886C00C2AC71 /* Back5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back5.png; sourceTree = "<group>"; };
+		B71DB8EE16FF886C00C2AC71 /* Back6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back6.png; sourceTree = "<group>"; };
+		B71DB8EF16FF886C00C2AC71 /* SHSlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SHSlogo.png; sourceTree = "<group>"; };
+		B71DB8FA16FF901B00C2AC71 /* JJISSleepExplanation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJISSleepExplanation.h; sourceTree = "<group>"; };
+		B71DB8FB16FF901B00C2AC71 /* JJISSleepExplanation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJISSleepExplanation.m; sourceTree = "<group>"; };
+		B72AD0EF16D3FCFA00B6728D /* JJISSleepAdviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJISSleepAdviceViewController.h; sourceTree = "<group>"; };
+		B72AD0F016D3FCFA00B6728D /* JJISSleepAdviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJISSleepAdviceViewController.m; sourceTree = "<group>"; };
+		B72AD0F216D3FD8A00B6728D /* JJISWakeUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJISWakeUpViewController.h; sourceTree = "<group>"; };
+		B72AD0F316D3FD8A00B6728D /* JJISWakeUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJISWakeUpViewController.m; sourceTree = "<group>"; };
+		B749E28B16D2E60F00DE16CF /* JJISGoToSleepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJISGoToSleepViewController.h; sourceTree = "<group>"; };
+		B749E28C16D2E60F00DE16CF /* JJISGoToSleepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJISGoToSleepViewController.m; sourceTree = "<group>"; };
+		B755F2DA16DBCD16003400B9 /* SleepTrackerTesting.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTrackerTesting.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7636B3B16FF74D3005DA39D /* EmptyBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmptyBox.png; sourceTree = "<group>"; };
+		B7636B3C16FF74D3005DA39D /* CheckedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckedBox.png; sourceTree = "<group>"; };
+		B797DB1716ECF88A00616787 /* JJISEditSleepTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJISEditSleepTimeViewController.h; sourceTree = "<group>"; };
+		B797DB1816ECF88A00616787 /* JJISEditSleepTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJISEditSleepTimeViewController.m; sourceTree = "<group>"; };
+		B797DB1A16ED24D700616787 /* logo-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-hover.png"; sourceTree = "<group>"; };
+		B7B90BFF16D80B8300A59E75 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B7B90C0116D80F5B00A59E75 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B7B90C0316D814A600A59E75 /* JJISSleepInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJISSleepInfo.h; sourceTree = "<group>"; };
+		B7B90C0416D814A600A59E75 /* JJISSleepInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJISSleepInfo.m; sourceTree = "<group>"; };
+		B7B90C0616D815ED00A59E75 /* JJISSleepInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJISSleepInfoManager.h; sourceTree = "<group>"; };
+		B7B90C0716D815ED00A59E75 /* JJISSleepInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJISSleepInfoManager.m; sourceTree = "<group>"; };
+		B7B90C0916D8171C00A59E75 /* SHSPodcast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SHSPodcast.mp3; path = ../SHSPodcast.mp3; sourceTree = "<group>"; };
+		B7D3E9EE16D928AD001BC717 /* JJISSleepDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JJISSleepDetailViewController.h; path = ../JJISSleepDetailViewController.h; sourceTree = "<group>"; };
+		B7D3E9EF16D928AD001BC717 /* JJISSleepDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JJISSleepDetailViewController.m; path = ../JJISSleepDetailViewController.m; sourceTree = "<group>"; };
+		B7D6798A16FBBF71004CE5D9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B7D6798C16FBBF78004CE5D9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		B7DE077D16D2DA8400D3D98E /* SleepTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DE078016D2DA8400D3D98E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7DE078216D2DA8400D3D98E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7DE078416D2DA8400D3D98E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7DE078816D2DA8400D3D98E /* SleepTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SleepTracker-Info.plist"; sourceTree = "<group>"; };
+		B7DE078A16D2DA8400D3D98E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7DE078C16D2DA8400D3D98E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7DE078E16D2DA8400D3D98E /* SleepTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SleepTracker-Prefix.pch"; sourceTree = "<group>"; };
+		B7DE078F16D2DA8400D3D98E /* JJISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJISAppDelegate.h; sourceTree = "<group>"; };
+		B7DE079016D2DA8400D3D98E /* JJISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJISAppDelegate.m; sourceTree = "<group>"; };
+		B7DE079216D2DA8400D3D98E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B7DE079416D2DA8400D3D98E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B7DE079616D2DA8400D3D98E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B7DE079916D2DA8400D3D98E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B7DE079B16D2DA8400D3D98E /* JJISViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJISViewController.h; sourceTree = "<group>"; };
+		B7DE079C16D2DA8400D3D98E /* JJISViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJISViewController.m; sourceTree = "<group>"; };
+		B7DE07A316D2DA8400D3D98E /* SleepTrackerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTrackerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DE07A416D2DA8400D3D98E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7DE07AC16D2DA8400D3D98E /* SleepTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SleepTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		B7DE07AE16D2DA8400D3D98E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7DE07B016D2DA8400D3D98E /* SleepTrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SleepTrackerTests.h; sourceTree = "<group>"; };
+		B7DE07B116D2DA8400D3D98E /* SleepTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepTrackerTests.m; sourceTree = "<group>"; };
+		B7F5CA0D16EE828900E598BD /* CorePlot-CocoaTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CorePlot-CocoaTouch.h"; sourceTree = "<group>"; };
+		B7F5CA0E16EE828900E598BD /* CPTAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnnotation.h; sourceTree = "<group>"; };
+		B7F5CA0F16EE828900E598BD /* CPTAnnotationHostLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnnotationHostLayer.h; sourceTree = "<group>"; };
+		B7F5CA1016EE828900E598BD /* CPTAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxis.h; sourceTree = "<group>"; };
+		B7F5CA1116EE828900E598BD /* CPTAxisLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabel.h; sourceTree = "<group>"; };
+		B7F5CA1216EE828900E598BD /* CPTAxisLabelGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabelGroup.h; sourceTree = "<group>"; };
+		B7F5CA1316EE828900E598BD /* CPTAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisSet.h; sourceTree = "<group>"; };
+		B7F5CA1416EE828900E598BD /* CPTAxisTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisTitle.h; sourceTree = "<group>"; };
+		B7F5CA1516EE828900E598BD /* CPTBarPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTBarPlot.h; sourceTree = "<group>"; };
+		B7F5CA1616EE828900E598BD /* CPTBorderedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTBorderedLayer.h; sourceTree = "<group>"; };
+		B7F5CA1716EE828900E598BD /* CPTCalendarFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTCalendarFormatter.h; sourceTree = "<group>"; };
+		B7F5CA1816EE828900E598BD /* CPTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTColor.h; sourceTree = "<group>"; };
+		B7F5CA1916EE828900E598BD /* CPTColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTColorSpace.h; sourceTree = "<group>"; };
+		B7F5CA1A16EE828900E598BD /* CPTConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTConstraints.h; sourceTree = "<group>"; };
+		B7F5CA1B16EE828900E598BD /* CPTDataSourceTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDataSourceTestCase.h; sourceTree = "<group>"; };
+		B7F5CA1C16EE828900E598BD /* CPTDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDefinitions.h; sourceTree = "<group>"; };
+		B7F5CA1D16EE828900E598BD /* CPTDerivedXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDerivedXYGraph.h; sourceTree = "<group>"; };
+		B7F5CA1E16EE828900E598BD /* CPTExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTExceptions.h; sourceTree = "<group>"; };
+		B7F5CA1F16EE828900E598BD /* CPTFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTFill.h; sourceTree = "<group>"; };
+		B7F5CA2016EE828900E598BD /* CPTGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGradient.h; sourceTree = "<group>"; };
+		B7F5CA2116EE828900E598BD /* CPTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraph.h; sourceTree = "<group>"; };
+		B7F5CA2216EE828900E598BD /* CPTGraphHostingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraphHostingView.h; sourceTree = "<group>"; };
+		B7F5CA2316EE828900E598BD /* CPTGridLineGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGridLineGroup.h; sourceTree = "<group>"; };
+		B7F5CA2416EE828900E598BD /* CPTGridLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGridLines.h; sourceTree = "<group>"; };
+		B7F5CA2516EE828900E598BD /* CPTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTImage.h; sourceTree = "<group>"; };
+		B7F5CA2616EE828900E598BD /* CPTLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLayer.h; sourceTree = "<group>"; };
+		B7F5CA2716EE828900E598BD /* CPTLayerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLayerAnnotation.h; sourceTree = "<group>"; };
+		B7F5CA2816EE828900E598BD /* CPTLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLegend.h; sourceTree = "<group>"; };
+		B7F5CA2916EE828900E598BD /* CPTLegendEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLegendEntry.h; sourceTree = "<group>"; };
+		B7F5CA2A16EE828900E598BD /* CPTLimitBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLimitBand.h; sourceTree = "<group>"; };
+		B7F5CA2B16EE828900E598BD /* CPTLineCap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLineCap.h; sourceTree = "<group>"; };
+		B7F5CA2C16EE828900E598BD /* CPTLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLineStyle.h; sourceTree = "<group>"; };
+		B7F5CA2D16EE828900E598BD /* CPTMutableLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableLineStyle.h; sourceTree = "<group>"; };
+		B7F5CA2E16EE828900E598BD /* CPTMutableNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPTMutableNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		B7F5CA2F16EE828900E598BD /* CPTMutableNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableNumericData.h; sourceTree = "<group>"; };
+		B7F5CA3016EE828900E598BD /* CPTMutablePlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutablePlotRange.h; sourceTree = "<group>"; };
+		B7F5CA3116EE828900E598BD /* CPTMutableShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableShadow.h; sourceTree = "<group>"; };
+		B7F5CA3216EE828900E598BD /* CPTMutableTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableTextStyle.h; sourceTree = "<group>"; };
+		B7F5CA3316EE828900E598BD /* CPTNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPTNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		B7F5CA3416EE828900E598BD /* CPTNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTNumericData.h; sourceTree = "<group>"; };
+		B7F5CA3516EE828900E598BD /* CPTNumericDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTNumericDataType.h; sourceTree = "<group>"; };
+		B7F5CA3616EE828900E598BD /* CPTPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPathExtensions.h; sourceTree = "<group>"; };
+		B7F5CA3716EE828900E598BD /* CPTPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPieChart.h; sourceTree = "<group>"; };
+		B7F5CA3816EE828900E598BD /* CPTPlatformSpecificCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificCategories.h; sourceTree = "<group>"; };
+		B7F5CA3916EE828900E598BD /* CPTPlatformSpecificDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificDefines.h; sourceTree = "<group>"; };
+		B7F5CA3A16EE828900E598BD /* CPTPlatformSpecificFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificFunctions.h; sourceTree = "<group>"; };
+		B7F5CA3B16EE828900E598BD /* CPTPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlot.h; sourceTree = "<group>"; };
+		B7F5CA3C16EE828900E598BD /* CPTPlotArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotArea.h; sourceTree = "<group>"; };
+		B7F5CA3D16EE828900E598BD /* CPTPlotAreaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotAreaFrame.h; sourceTree = "<group>"; };
+		B7F5CA3E16EE828900E598BD /* CPTPlotGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotGroup.h; sourceTree = "<group>"; };
+		B7F5CA3F16EE828900E598BD /* CPTPlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotRange.h; sourceTree = "<group>"; };
+		B7F5CA4016EE828900E598BD /* CPTPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpace.h; sourceTree = "<group>"; };
+		B7F5CA4116EE828900E598BD /* CPTPlotSpaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpaceAnnotation.h; sourceTree = "<group>"; };
+		B7F5CA4216EE828900E598BD /* CPTPlotSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSymbol.h; sourceTree = "<group>"; };
+		B7F5CA4316EE828900E598BD /* CPTRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTRangePlot.h; sourceTree = "<group>"; };
+		B7F5CA4416EE828900E598BD /* CPTResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTResponder.h; sourceTree = "<group>"; };
+		B7F5CA4516EE828900E598BD /* CPTScatterPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTScatterPlot.h; sourceTree = "<group>"; };
+		B7F5CA4616EE828900E598BD /* CPTShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTShadow.h; sourceTree = "<group>"; };
+		B7F5CA4716EE828900E598BD /* CPTTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTestCase.h; sourceTree = "<group>"; };
+		B7F5CA4816EE828900E598BD /* CPTTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextLayer.h; sourceTree = "<group>"; };
+		B7F5CA4916EE828900E598BD /* CPTTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextStyle.h; sourceTree = "<group>"; };
+		B7F5CA4A16EE828900E598BD /* CPTTextStylePlatformSpecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextStylePlatformSpecific.h; sourceTree = "<group>"; };
+		B7F5CA4B16EE828900E598BD /* CPTTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTheme.h; sourceTree = "<group>"; };
+		B7F5CA4C16EE828900E598BD /* CPTTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTimeFormatter.h; sourceTree = "<group>"; };
+		B7F5CA4D16EE828900E598BD /* CPTTradingRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTradingRangePlot.h; sourceTree = "<group>"; };
+		B7F5CA4E16EE828900E598BD /* CPTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTUtilities.h; sourceTree = "<group>"; };
+		B7F5CA4F16EE828900E598BD /* CPTXYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYAxis.h; sourceTree = "<group>"; };
+		B7F5CA5016EE828900E598BD /* CPTXYAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYAxisSet.h; sourceTree = "<group>"; };
+		B7F5CA5116EE828900E598BD /* CPTXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYGraph.h; sourceTree = "<group>"; };
+		B7F5CA5216EE828900E598BD /* CPTXYPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYPlotSpace.h; sourceTree = "<group>"; };
+		B7F5CA5316EE828900E598BD /* mainpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainpage.h; sourceTree = "<group>"; };
+		B7F5CA5416EE828900E598BD /* NSCoderExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCoderExtensions.h; sourceTree = "<group>"; };
+		B7F5CA5516EE828900E598BD /* NSDecimalNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumberExtensions.h; sourceTree = "<group>"; };
+		B7F5CA5616EE828900E598BD /* NSNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberExtensions.h; sourceTree = "<group>"; };
+		B7F5CA5716EE82CE00E598BD /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCorePlot-CocoaTouch.a"; path = "CorePlot_1.1/Binaries/iOS/libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		B7F5CA5A16EE82E600E598BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B7F5CA5C16EE855E00E598BD /* JJISBarGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJISBarGraphViewController.h; sourceTree = "<group>"; };
+		B7F5CA5D16EE855E00E598BD /* JJISBarGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJISBarGraphViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B755F2D616DBCD16003400B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B755F2DB16DBCD16003400B9 /* SenTestingKit.framework in Frameworks */,
+				B755F2DC16DBCD16003400B9 /* UIKit.framework in Frameworks */,
+				B755F2DD16DBCD16003400B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DE077A16D2DA8400D3D98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F5CA5B16EE82E600E598BD /* QuartzCore.framework in Frameworks */,
+				B7B90C0216D80F5B00A59E75 /* CoreAudio.framework in Frameworks */,
+				B7B90C0016D80B8300A59E75 /* AVFoundation.framework in Frameworks */,
+				B7DE078116D2DA8400D3D98E /* UIKit.framework in Frameworks */,
+				B7DE078316D2DA8400D3D98E /* Foundation.framework in Frameworks */,
+				B7F5CA5916EE82DB00E598BD /* libCorePlot-CocoaTouch.a in Frameworks */,
+				B7DE078516D2DA8400D3D98E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DE079F16D2DA8400D3D98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DE07A516D2DA8400D3D98E /* SenTestingKit.framework in Frameworks */,
+				B7DE07A616D2DA8400D3D98E /* UIKit.framework in Frameworks */,
+				B7DE07A716D2DA8400D3D98E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7DE077416D2DA8400D3D98E = {
+			isa = PBXGroup;
+			children = (
+				B7D6798C16FBBF78004CE5D9 /* Icon@2x.png */,
+				B7D6798A16FBBF71004CE5D9 /* Icon.png */,
+				B7F5CA5A16EE82E600E598BD /* QuartzCore.framework */,
+				B7F5CA5716EE82CE00E598BD /* libCorePlot-CocoaTouch.a */,
+				B7F5CA0C16EE828900E598BD /* CorePlotHeaders */,
+				B7B90C0116D80F5B00A59E75 /* CoreAudio.framework */,
+				B7B90BFF16D80B8300A59E75 /* AVFoundation.framework */,
+				B7DE078616D2DA8400D3D98E /* SleepTracker */,
+				B7DE07AA16D2DA8400D3D98E /* SleepTrackerTests */,
+				B7DE077F16D2DA8400D3D98E /* Frameworks */,
+				B7DE077E16D2DA8400D3D98E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7DE077E16D2DA8400D3D98E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7DE077D16D2DA8400D3D98E /* SleepTracker.app */,
+				B7DE07A316D2DA8400D3D98E /* SleepTrackerTests.octest */,
+				B755F2DA16DBCD16003400B9 /* SleepTrackerTesting.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7DE077F16D2DA8400D3D98E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7DE078016D2DA8400D3D98E /* UIKit.framework */,
+				B7DE078216D2DA8400D3D98E /* Foundation.framework */,
+				B7DE078416D2DA8400D3D98E /* CoreGraphics.framework */,
+				B7DE07A416D2DA8400D3D98E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7DE078616D2DA8400D3D98E /* SleepTracker */ = {
+			isa = PBXGroup;
+			children = (
+				B71DB8E916FF886C00C2AC71 /* Back1.png */,
+				B71DB8EA16FF886C00C2AC71 /* Back2.png */,
+				B71DB8EB16FF886C00C2AC71 /* Back3.png */,
+				B71DB8EC16FF886C00C2AC71 /* Back4.png */,
+				B71DB8ED16FF886C00C2AC71 /* Back5.png */,
+				B71DB8EE16FF886C00C2AC71 /* Back6.png */,
+				B71DB8EF16FF886C00C2AC71 /* SHSlogo.png */,
+				B7636B3B16FF74D3005DA39D /* EmptyBox.png */,
+				B7636B3C16FF74D3005DA39D /* CheckedBox.png */,
+				B797DB1A16ED24D700616787 /* logo-hover.png */,
+				B7D3E9EE16D928AD001BC717 /* JJISSleepDetailViewController.h */,
+				B7D3E9EF16D928AD001BC717 /* JJISSleepDetailViewController.m */,
+				B7B90C0916D8171C00A59E75 /* SHSPodcast.mp3 */,
+				B7DE078F16D2DA8400D3D98E /* JJISAppDelegate.h */,
+				B7DE079016D2DA8400D3D98E /* JJISAppDelegate.m */,
+				B7DE079816D2DA8400D3D98E /* MainStoryboard.storyboard */,
+				B797DB1716ECF88A00616787 /* JJISEditSleepTimeViewController.h */,
+				B797DB1816ECF88A00616787 /* JJISEditSleepTimeViewController.m */,
+				B72AD0F216D3FD8A00B6728D /* JJISWakeUpViewController.h */,
+				B72AD0F316D3FD8A00B6728D /* JJISWakeUpViewController.m */,
+				B71DB8FA16FF901B00C2AC71 /* JJISSleepExplanation.h */,
+				B71DB8FB16FF901B00C2AC71 /* JJISSleepExplanation.m */,
+				B72AD0EF16D3FCFA00B6728D /* JJISSleepAdviceViewController.h */,
+				B72AD0F016D3FCFA00B6728D /* JJISSleepAdviceViewController.m */,
+				B7DE079B16D2DA8400D3D98E /* JJISViewController.h */,
+				B7DE079C16D2DA8400D3D98E /* JJISViewController.m */,
+				B7B90C0616D815ED00A59E75 /* JJISSleepInfoManager.h */,
+				B7B90C0716D815ED00A59E75 /* JJISSleepInfoManager.m */,
+				B749E28B16D2E60F00DE16CF /* JJISGoToSleepViewController.h */,
+				B749E28C16D2E60F00DE16CF /* JJISGoToSleepViewController.m */,
+				B715B2CB16D927A600CECECA /* JJISSleepTableViewController.h */,
+				B715B2CC16D927A600CECECA /* JJISSleepTableViewController.m */,
+				B7B90C0316D814A600A59E75 /* JJISSleepInfo.h */,
+				B7B90C0416D814A600A59E75 /* JJISSleepInfo.m */,
+				B7F5CA5C16EE855E00E598BD /* JJISBarGraphViewController.h */,
+				B7F5CA5D16EE855E00E598BD /* JJISBarGraphViewController.m */,
+				B7DE078716D2DA8400D3D98E /* Supporting Files */,
+			);
+			path = SleepTracker;
+			sourceTree = "<group>";
+		};
+		B7DE078716D2DA8400D3D98E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7DE078816D2DA8400D3D98E /* SleepTracker-Info.plist */,
+				B7DE078916D2DA8400D3D98E /* InfoPlist.strings */,
+				B7DE078C16D2DA8400D3D98E /* main.m */,
+				B7DE078E16D2DA8400D3D98E /* SleepTracker-Prefix.pch */,
+				B7DE079216D2DA8400D3D98E /* Default.png */,
+				B7DE079416D2DA8400D3D98E /* Default@2x.png */,
+				B7DE079616D2DA8400D3D98E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7DE07AA16D2DA8400D3D98E /* SleepTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7DE07B016D2DA8400D3D98E /* SleepTrackerTests.h */,
+				B7DE07B116D2DA8400D3D98E /* SleepTrackerTests.m */,
+				B7DE07AB16D2DA8400D3D98E /* Supporting Files */,
+			);
+			path = SleepTrackerTests;
+			sourceTree = "<group>";
+		};
+		B7DE07AB16D2DA8400D3D98E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7DE07AC16D2DA8400D3D98E /* SleepTrackerTests-Info.plist */,
+				B7DE07AD16D2DA8400D3D98E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7F5CA0C16EE828900E598BD /* CorePlotHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				B7F5CA0D16EE828900E598BD /* CorePlot-CocoaTouch.h */,
+				B7F5CA0E16EE828900E598BD /* CPTAnnotation.h */,
+				B7F5CA0F16EE828900E598BD /* CPTAnnotationHostLayer.h */,
+				B7F5CA1016EE828900E598BD /* CPTAxis.h */,
+				B7F5CA1116EE828900E598BD /* CPTAxisLabel.h */,
+				B7F5CA1216EE828900E598BD /* CPTAxisLabelGroup.h */,
+				B7F5CA1316EE828900E598BD /* CPTAxisSet.h */,
+				B7F5CA1416EE828900E598BD /* CPTAxisTitle.h */,
+				B7F5CA1516EE828900E598BD /* CPTBarPlot.h */,
+				B7F5CA1616EE828900E598BD /* CPTBorderedLayer.h */,
+				B7F5CA1716EE828900E598BD /* CPTCalendarFormatter.h */,
+				B7F5CA1816EE828900E598BD /* CPTColor.h */,
+				B7F5CA1916EE828900E598BD /* CPTColorSpace.h */,
+				B7F5CA1A16EE828900E598BD /* CPTConstraints.h */,
+				B7F5CA1B16EE828900E598BD /* CPTDataSourceTestCase.h */,
+				B7F5CA1C16EE828900E598BD /* CPTDefinitions.h */,
+				B7F5CA1D16EE828900E598BD /* CPTDerivedXYGraph.h */,
+				B7F5CA1E16EE828900E598BD /* CPTExceptions.h */,
+				B7F5CA1F16EE828900E598BD /* CPTFill.h */,
+				B7F5CA2016EE828900E598BD /* CPTGradient.h */,
+				B7F5CA2116EE828900E598BD /* CPTGraph.h */,
+				B7F5CA2216EE828900E598BD /* CPTGraphHostingView.h */,
+				B7F5CA2316EE828900E598BD /* CPTGridLineGroup.h */,
+				B7F5CA2416EE828900E598BD /* CPTGridLines.h */,
+				B7F5CA2516EE828900E598BD /* CPTImage.h */,
+				B7F5CA2616EE828900E598BD /* CPTLayer.h */,
+				B7F5CA2716EE828900E598BD /* CPTLayerAnnotation.h */,
+				B7F5CA2816EE828900E598BD /* CPTLegend.h */,
+				B7F5CA2916EE828900E598BD /* CPTLegendEntry.h */,
+				B7F5CA2A16EE828900E598BD /* CPTLimitBand.h */,
+				B7F5CA2B16EE828900E598BD /* CPTLineCap.h */,
+				B7F5CA2C16EE828900E598BD /* CPTLineStyle.h */,
+				B7F5CA2D16EE828900E598BD /* CPTMutableLineStyle.h */,
+				B7F5CA2E16EE828900E598BD /* CPTMutableNumericData+TypeConversion.h */,
+				B7F5CA2F16EE828900E598BD /* CPTMutableNumericData.h */,
+				B7F5CA3016EE828900E598BD /* CPTMutablePlotRange.h */,
+				B7F5CA3116EE828900E598BD /* CPTMutableShadow.h */,
+				B7F5CA3216EE828900E598BD /* CPTMutableTextStyle.h */,
+				B7F5CA3316EE828900E598BD /* CPTNumericData+TypeConversion.h */,
+				B7F5CA3416EE828900E598BD /* CPTNumericData.h */,
+				B7F5CA3516EE828900E598BD /* CPTNumericDataType.h */,
+				B7F5CA3616EE828900E598BD /* CPTPathExtensions.h */,
+				B7F5CA3716EE828900E598BD /* CPTPieChart.h */,
+				B7F5CA3816EE828900E598BD /* CPTPlatformSpecificCategories.h */,
+				B7F5CA3916EE828900E598BD /* CPTPlatformSpecificDefines.h */,
+				B7F5CA3A16EE828900E598BD /* CPTPlatformSpecificFunctions.h */,
+				B7F5CA3B16EE828900E598BD /* CPTPlot.h */,
+				B7F5CA3C16EE828900E598BD /* CPTPlotArea.h */,
+				B7F5CA3D16EE828900E598BD /* CPTPlotAreaFrame.h */,
+				B7F5CA3E16EE828900E598BD /* CPTPlotGroup.h */,
+				B7F5CA3F16EE828900E598BD /* CPTPlotRange.h */,
+				B7F5CA4016EE828900E598BD /* CPTPlotSpace.h */,
+				B7F5CA4116EE828900E598BD /* CPTPlotSpaceAnnotation.h */,
+				B7F5CA4216EE828900E598BD /* CPTPlotSymbol.h */,
+				B7F5CA4316EE828900E598BD /* CPTRangePlot.h */,
+				B7F5CA4416EE828900E598BD /* CPTResponder.h */,
+				B7F5CA4516EE828900E598BD /* CPTScatterPlot.h */,
+				B7F5CA4616EE828900E598BD /* CPTShadow.h */,
+				B7F5CA4716EE828900E598BD /* CPTTestCase.h */,
+				B7F5CA4816EE828900E598BD /* CPTTextLayer.h */,
+				B7F5CA4916EE828900E598BD /* CPTTextStyle.h */,
+				B7F5CA4A16EE828900E598BD /* CPTTextStylePlatformSpecific.h */,
+				B7F5CA4B16EE828900E598BD /* CPTTheme.h */,
+				B7F5CA4C16EE828900E598BD /* CPTTimeFormatter.h */,
+				B7F5CA4D16EE828900E598BD /* CPTTradingRangePlot.h */,
+				B7F5CA4E16EE828900E598BD /* CPTUtilities.h */,
+				B7F5CA4F16EE828900E598BD /* CPTXYAxis.h */,
+				B7F5CA5016EE828900E598BD /* CPTXYAxisSet.h */,
+				B7F5CA5116EE828900E598BD /* CPTXYGraph.h */,
+				B7F5CA5216EE828900E598BD /* CPTXYPlotSpace.h */,
+				B7F5CA5316EE828900E598BD /* mainpage.h */,
+				B7F5CA5416EE828900E598BD /* NSCoderExtensions.h */,
+				B7F5CA5516EE828900E598BD /* NSDecimalNumberExtensions.h */,
+				B7F5CA5616EE828900E598BD /* NSNumberExtensions.h */,
+			);
+			name = CorePlotHeaders;
+			path = CorePlot_1.1/Binaries/iOS/CorePlotHeaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B755F2D916DBCD16003400B9 /* SleepTrackerTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B755F2EA16DBCD16003400B9 /* Build configuration list for PBXNativeTarget "SleepTrackerTesting" */;
+			buildPhases = (
+				B755F2D516DBCD16003400B9 /* Sources */,
+				B755F2D616DBCD16003400B9 /* Frameworks */,
+				B755F2D716DBCD16003400B9 /* Resources */,
+				B755F2D816DBCD16003400B9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepTrackerTesting;
+			productName = SleepTrackerTesting;
+			productReference = B755F2DA16DBCD16003400B9 /* SleepTrackerTesting.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B7DE077C16D2DA8400D3D98E /* SleepTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DE07B516D2DA8400D3D98E /* Build configuration list for PBXNativeTarget "SleepTracker" */;
+			buildPhases = (
+				B7DE077916D2DA8400D3D98E /* Sources */,
+				B7DE077A16D2DA8400D3D98E /* Frameworks */,
+				B7DE077B16D2DA8400D3D98E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepTracker;
+			productName = SleepTracker;
+			productReference = B7DE077D16D2DA8400D3D98E /* SleepTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7DE07A216D2DA8400D3D98E /* SleepTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DE07B816D2DA8400D3D98E /* Build configuration list for PBXNativeTarget "SleepTrackerTests" */;
+			buildPhases = (
+				B7DE079E16D2DA8400D3D98E /* Sources */,
+				B7DE079F16D2DA8400D3D98E /* Frameworks */,
+				B7DE07A016D2DA8400D3D98E /* Resources */,
+				B7DE07A116D2DA8400D3D98E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7DE07A916D2DA8400D3D98E /* PBXTargetDependency */,
+			);
+			name = SleepTrackerTests;
+			productName = SleepTrackerTests;
+			productReference = B7DE07A316D2DA8400D3D98E /* SleepTrackerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7DE077516D2DA8400D3D98E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JJIS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jason Kahn";
+			};
+			buildConfigurationList = B7DE077816D2DA8400D3D98E /* Build configuration list for PBXProject "SleepTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7DE077416D2DA8400D3D98E;
+			productRefGroup = B7DE077E16D2DA8400D3D98E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7DE077C16D2DA8400D3D98E /* SleepTracker */,
+				B7DE07A216D2DA8400D3D98E /* SleepTrackerTests */,
+				B755F2D916DBCD16003400B9 /* SleepTrackerTesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B755F2D716DBCD16003400B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DE077B16D2DA8400D3D98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DE078B16D2DA8400D3D98E /* InfoPlist.strings in Resources */,
+				B7DE079316D2DA8400D3D98E /* Default.png in Resources */,
+				B7DE079516D2DA8400D3D98E /* Default@2x.png in Resources */,
+				B7DE079716D2DA8400D3D98E /* Default-568h@2x.png in Resources */,
+				B7DE079A16D2DA8400D3D98E /* MainStoryboard.storyboard in Resources */,
+				B7B90C0A16D8171C00A59E75 /* SHSPodcast.mp3 in Resources */,
+				B797DB1B16ED24D800616787 /* logo-hover.png in Resources */,
+				B7D6798B16FBBF71004CE5D9 /* Icon.png in Resources */,
+				B7D6798D16FBBF78004CE5D9 /* Icon@2x.png in Resources */,
+				B7636B3D16FF74D3005DA39D /* EmptyBox.png in Resources */,
+				B7636B3E16FF74D3005DA39D /* CheckedBox.png in Resources */,
+				B71DB8F016FF886C00C2AC71 /* Back1.png in Resources */,
+				B71DB8F116FF886C00C2AC71 /* Back2.png in Resources */,
+				B71DB8F216FF886C00C2AC71 /* Back3.png in Resources */,
+				B71DB8F316FF886C00C2AC71 /* Back4.png in Resources */,
+				B71DB8F416FF886C00C2AC71 /* Back5.png in Resources */,
+				B71DB8F516FF886C00C2AC71 /* Back6.png in Resources */,
+				B71DB8F616FF886C00C2AC71 /* SHSlogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DE07A016D2DA8400D3D98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DE07AF16D2DA8400D3D98E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B755F2D816DBCD16003400B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		B7DE07A116D2DA8400D3D98E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B755F2D516DBCD16003400B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DE077916D2DA8400D3D98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DE078D16D2DA8400D3D98E /* main.m in Sources */,
+				B7DE079116D2DA8400D3D98E /* JJISAppDelegate.m in Sources */,
+				B7DE079D16D2DA8400D3D98E /* JJISViewController.m in Sources */,
+				B749E28D16D2E60F00DE16CF /* JJISGoToSleepViewController.m in Sources */,
+				B72AD0F116D3FCFA00B6728D /* JJISSleepAdviceViewController.m in Sources */,
+				B72AD0F416D3FD8A00B6728D /* JJISWakeUpViewController.m in Sources */,
+				B7B90C0516D814A600A59E75 /* JJISSleepInfo.m in Sources */,
+				B7B90C0816D815ED00A59E75 /* JJISSleepInfoManager.m in Sources */,
+				B715B2CD16D927A600CECECA /* JJISSleepTableViewController.m in Sources */,
+				B7D3E9F016D928AD001BC717 /* JJISSleepDetailViewController.m in Sources */,
+				B797DB1916ECF88A00616787 /* JJISEditSleepTimeViewController.m in Sources */,
+				B7F5CA5E16EE855E00E598BD /* JJISBarGraphViewController.m in Sources */,
+				B71DB8FC16FF901B00C2AC71 /* JJISSleepExplanation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DE079E16D2DA8400D3D98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DE07B216D2DA8400D3D98E /* SleepTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7DE07A916D2DA8400D3D98E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7DE077C16D2DA8400D3D98E /* SleepTracker */;
+			targetProxy = B7DE07A816D2DA8400D3D98E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7DE078916D2DA8400D3D98E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7DE078A16D2DA8400D3D98E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7DE079816D2DA8400D3D98E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7DE079916D2DA8400D3D98E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B7DE07AD16D2DA8400D3D98E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7DE07AE16D2DA8400D3D98E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B755F2E816DBCD16003400B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SleepTrackerTesting/SleepTrackerTesting-Prefix.pch";
+				INFOPLIST_FILE = "SleepTrackerTesting/SleepTrackerTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B755F2E916DBCD16003400B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SleepTrackerTesting/SleepTrackerTesting-Prefix.pch";
+				INFOPLIST_FILE = "SleepTrackerTesting/SleepTrackerTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		B7DE07B316D2DA8400D3D98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7DE07B416D2DA8400D3D98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7DE07B616D2DA8400D3D98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SleepTracker/SleepTracker-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "../CorePlot-CocoaTouch/Frameworks/**";
+				INFOPLIST_FILE = "SleepTracker/SleepTracker-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Desktop/CorePlot_1.1/Binaries/iOS\"",
+					"\"$(SRCROOT)/CorePlot_1.1/Binaries/iOS\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7DE07B716D2DA8400D3D98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SleepTracker/SleepTracker-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "../CorePlot-CocoaTouch/Frameworks/**";
+				INFOPLIST_FILE = "SleepTracker/SleepTracker-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Desktop/CorePlot_1.1/Binaries/iOS\"",
+					"\"$(SRCROOT)/CorePlot_1.1/Binaries/iOS\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B7DE07B916D2DA8400D3D98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SleepTracker.app/SleepTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SleepTracker/SleepTracker-Prefix.pch";
+				INFOPLIST_FILE = "SleepTrackerTests/SleepTrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B7DE07BA16D2DA8400D3D98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SleepTracker.app/SleepTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SleepTracker/SleepTracker-Prefix.pch";
+				INFOPLIST_FILE = "SleepTrackerTests/SleepTrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B755F2EA16DBCD16003400B9 /* Build configuration list for PBXNativeTarget "SleepTrackerTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B755F2E816DBCD16003400B9 /* Debug */,
+				B755F2E916DBCD16003400B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DE077816D2DA8400D3D98E /* Build configuration list for PBXProject "SleepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DE07B316D2DA8400D3D98E /* Debug */,
+				B7DE07B416D2DA8400D3D98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DE07B516D2DA8400D3D98E /* Build configuration list for PBXNativeTarget "SleepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DE07B616D2DA8400D3D98E /* Debug */,
+				B7DE07B716D2DA8400D3D98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DE07B816D2DA8400D3D98E /* Build configuration list for PBXNativeTarget "SleepTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DE07B916D2DA8400D3D98E /* Debug */,
+				B7DE07BA16D2DA8400D3D98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7DE077516D2DA8400D3D98E /* Project object */;
+}
